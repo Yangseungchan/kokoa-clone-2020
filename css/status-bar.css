@@ -7,6 +7,7 @@
 .status-bar__column {
   width: 33%;
 }
+
 .status-bar__column:nth-child(2) {
   display: flex;
   justify-content: center;
