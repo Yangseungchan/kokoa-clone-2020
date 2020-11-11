@@ -1,0 +1,29 @@
+#friends-display-link {
+  text-align: center;
+  display: block;
+  background-color: #fafafa;
+  padding: 14px 0px;
+  margin-bottom: 12px;
+}
+
+#friends-display-link i {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.friends-screen {
+  padding: 0px var(--horizontal-space);
+}
+/* friends-screen은 나의 프로필과, 친구들을 모두 포함하는 창이다 */
+
+.friends-screen__channel {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  padding-top: 15px;
+}
+
+.friends-screen__channel-header {
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.5);
+}
