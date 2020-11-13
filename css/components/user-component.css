@@ -48,6 +48,11 @@
   align-items: flex-end;
 }
 
+.user-component__subtitle .fa-exclamation-circle {
+  color: rgba(212, 82, 82, 0.8);
+  padding-left: 3px;
+}
+
 .user-component__time {
   margin-bottom: 5px;
   display: block;
