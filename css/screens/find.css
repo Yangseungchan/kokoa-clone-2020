@@ -1,0 +1,117 @@
+.recommended-friends {
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
+  padding: 20px 0px;
+  margin: 25px 0px;
+}
+
+.recommended-friends__title {
+  font-size: 15px;
+  color: var(--gray-color-font);
+}
+
+.recommended-friends span {
+  display: block;
+  text-align: center;
+  margin: 110px 0px;
+  font-size: 20px;
+  color: var(--gray-color-font);
+}
+
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  color: var(--gray-color-font);
+  margin-bottom: 25px;
+}
+
+.open-post {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: var(--main-border);
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+}
+
+.open-post__title {
+  font-weight: 600;
+}
+
+.open-post__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.open-post__column:first-child {
+  padding-top: 23px;
+}
+
+.open-post__column img {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+}
+
+.open-post__title {
+  font-size: 20px;
+}
+
+.open-post__hashtags {
+  text-transform: uppercase;
+  font-size: 18px;
+  color: var(--gray-color-font);
+  margin: 10px 0px;
+}
+
+.open-post__members {
+  display: flex;
+  align-items: center;
+}
+
+.open-post__members img {
+  width: 25px;
+  height: 25px;
+  border-radius: 8px;
+}
+
+.open-post__members-count {
+  margin-left: 5px;
+  color: var(--gray-color-font);
+  font-size: 14px;
+}
+
+.open-post__members-status {
+  color: rgba(241, 112, 241, 0.7);
+  font-size: 14px;
+}
+
+.open-post__column .divider {
+  margin: 0px 5px;
+  width: 1.5px;
+  height: 13px;
+  background-color: var(--gray-color-font);
+}
+
+.open-post__photo {
+  position: relative;
+}
+
+.open-post__heart-count {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 8px;
+  right: 6px;
+  border-radius: 15px;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.open-post__heart-count i {
+  margin-right: 5px;
+  font-size: 12px;
+  padding-top: 1px;
+  color: rgba(255, 255, 255, 0.95);
+}
