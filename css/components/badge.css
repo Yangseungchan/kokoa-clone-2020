@@ -9,3 +9,14 @@
   color: white;
   font: weight 600;
 }
+
+.red-dot {
+  color: tomato;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 16px;
+  left: 20px;
+}
