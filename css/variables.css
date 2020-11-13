@@ -1,4 +1,6 @@
 :root {
   --yellow: #f7e100;
-  --horizontal-space: 23px;
+  --horizontal-space: 35px;
+  --main-border: 1px solid rgba(0, 0, 0, 0.1);
+  --gray-color-font: rgba(0, 0, 0, 0.4);
 }
