@@ -1,0 +1,19 @@
+.settings__setting {
+  padding: 20px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  font-size: 20px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings__setting-column i {
+  margin-right: 18px;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.settings__setting-column:last-child span {
+  color: var(--gray-color-font);
+}
