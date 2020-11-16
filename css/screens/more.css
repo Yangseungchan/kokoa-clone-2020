@@ -2,6 +2,22 @@
   margin-top: 25px;
 }
 
+@keyframes exclamation_animation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.more-screen .user-component__subtitle i {
+  animation: exclamation_animation 1.5s ease-in-out infinite;
+}
+
 .second-row {
   padding-top: 25px;
 }

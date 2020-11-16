@@ -115,3 +115,23 @@
   padding-top: 1px;
   color: rgba(255, 255, 255, 0.95);
 }
+
+@keyframes heartBeat {
+  0% {
+    color: rgba(255, 255, 255, 0.95);
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(2);
+  }
+  100% {
+    color: rgba(255, 255, 255, 0.95);
+    transform: none;
+  }
+}
+
+.open-post__heart-count:hover i {
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
+}
