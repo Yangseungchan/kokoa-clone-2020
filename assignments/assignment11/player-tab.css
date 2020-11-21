@@ -1,0 +1,105 @@
+.player__tab-album img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 2px 8px 10px #c4967e;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.player__tab-function-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.player__tab-function-btn1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.player__tab-function-btn1 i {
+  color: rgb(120, 192, 12);
+}
+
+.player__tab-function-btn1 span {
+  color: rgb(120, 192, 12);
+  font-size: 13px;
+  margin-left: 5px;
+}
+
+.player__tab-function-btn2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.player__tab-function-btn2 i:first-child {
+  color: rgb(138, 211, 28);
+  margin-right: 5px;
+}
+
+.player__tab-function-btn2 i:nth-child(2) {
+  color: rgb(197, 82, 101);
+}
+
+.player__tab-music-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.player__tab-music-timer-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 10px;
+}
+
+.player__tab-music-timer-text span:first-child {
+  color: rgb(120, 192, 12);
+}
+
+.player__tab-music-player {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.player__tab-music-player .fa-redo,
+.player__tab-music-player .fa-random {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.player__tab-music-player .fa-step-backward,
+.player__tab-music-player .fa-step-forward {
+  color: rgb(120, 192, 12);
+}
+
+.player__tab-music-player .fa-step-backward {
+  margin-left: 10px;
+}
+
+.player__tab-music-player .fa-step-forward {
+  margin-right: 10px;
+}
+
+.player__tab-music-player-play {
+  background-color: rgb(120, 192, 12);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.2);
+  margin: 0px 5px;
+}
+
+.player__tab-music-player-play i {
+  color: white;
+  position: absolute;
+  top: 18px;
+  left: 18px;
+}

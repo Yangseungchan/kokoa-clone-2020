@@ -36,15 +36,16 @@
   padding: 15px 0px;
   font-size: 18px;
   margin-bottom: 25px;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 #login-form input:not([type="submit"]) {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(245, 245, 245, 0.4);
   transition: border-color 0.3s ease-in-out;
 }
 
 #login-form input::placeholder {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(245, 245, 245, 0.7);
 }
 
 #login-form input:focus {
