@@ -14,7 +14,7 @@
       </div>
 
       <div class="status-bar__column">
-        <span>18:43</span>
+        <span>21:28</span>
       </div>
       <div class="status-bar__column">
         <span>100%</span>
@@ -27,14 +27,17 @@
       <h1 class="screen-header__title">Chats</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="fas fa-comment-dots fa-lg"></i></span>
+        <span><i class="fas fa-comment-medical fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
+        <span class="screen-icon__with-red-dot">
+          <span class="red-dot">.</span>
+          <a href="settings.html"><i class="fas fa-cog fa-lg"></i></a>
+        </span>
       </div>
     </header>
 
     <main class="main-screen">
-      <a href="chat.html">
+      <a href="chat_kokoatalk.html">
         <div class="user-component chat-user-component">
           <div class="user-component__column">
             <img
@@ -56,6 +59,49 @@
           <!--옆에 있다고 가정되는 두번째 상자-->
         </div>
       </a>
+      <a href="chat_nomadcoders.html">
+        <div class="user-component chat-user-component">
+          <div class="user-component__column">
+            <img
+              src="https://yt3.ggpht.com/ytc/AAUvwnhrCOwikqUztkKyNeIAmL294wtawA8M6nZlmx9UZA=s900-c-k-c0x00ffffff-no-rj"
+              class="user-component__avatar user-component__avatar--xl"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Nomad Coders</h4>
+              <h6 class="user-component__subtitle">
+                코코아 클론 2주 완성반 : Assignment....
+              </h6>
+            </div>
+          </div>
+          <!--프로필을 사진과 이름을 포함하는 첫번째 상자-->
+          <div class="user-component__column">
+            <span class="user-component__time">20:25</span>
+            <div class="badge">3</div>
+          </div>
+          <!--옆에 있다고 가정되는 두번째 상자-->
+        </div>
+      </a>
+
+      <a href="chat_frodo.html">
+        <div class="user-component chat-user-component">
+          <div class="user-component__column">
+            <img
+              src="https://pbs.twimg.com/profile_images/711566706951397376/4Icixk8A_400x400.jpg"
+              class="user-component__avatar user-component__avatar--xl"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Frodo</h4>
+              <h6 class="user-component__subtitle">내일 술마시자</h6>
+            </div>
+          </div>
+          <!--프로필을 사진과 이름을 포함하는 첫번째 상자-->
+          <div class="user-component__column">
+            <span class="user-component__time">20:25</span>
+            <div class="badge">1</div>
+          </div>
+          <!--옆에 있다고 가정되는 두번째 상자-->
+        </div>
+      </a>
     </main>
 
     <nav class="nav">
@@ -67,7 +113,7 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
-            <span class="nav__notification badge">1</span>
+            <span class="nav__notification badge">5</span>
             <i class="chats_i fas fa-gifts fa-2x"></i>
           </a>
         </li>

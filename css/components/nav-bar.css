@@ -75,3 +75,71 @@
 .nav__btn:nth-child(4) {
   animation-delay: 0.8s;
 }
+
+@keyframes shiningicon_friends {
+  25% {
+    color: gold;
+  }
+  50% {
+    color: black;
+  }
+  75% {
+    color: gold;
+  }
+}
+
+.friends_i {
+  color: gold;
+  animation: shiningicon_friends 2.5s ease-in-out infinite;
+}
+
+@keyframes shiningicon_chats {
+  25% {
+    color: rgb(35, 167, 35);
+  }
+  50% {
+    color: black;
+  }
+  75% {
+    color: rgb(35, 167, 35);
+  }
+}
+
+.chats_i {
+  color: rgb(35, 167, 35);
+  animation: shiningicon_chats 2.5s ease-in-out infinite;
+}
+
+@keyframes shiningicon_find {
+  25% {
+    color: tomato;
+  }
+  50% {
+    color: black;
+  }
+  75% {
+    color: tomato;
+  }
+}
+
+.find_i {
+  color: tomato;
+  animation: shiningicon_find 2.5s ease-in-out infinite;
+}
+
+@keyframes shiningicon_more {
+  25% {
+    color: rgb(193, 219, 230);
+  }
+  50% {
+    color: black;
+  }
+  75% {
+    color: rgb(193, 219, 230);
+  }
+}
+
+.more_i {
+  color: rgb(193, 219, 230);
+  animation: shiningicon_more 2.5s ease-in-out infinite;
+}

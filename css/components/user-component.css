@@ -6,6 +6,7 @@
 
 .user-component {
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .user-component__avatar {
@@ -38,12 +39,16 @@
 .user-component__subtitle {
   margin-top: 8px;
   font-size: 17px;
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--light-white);
 }
 
 .user-component__column:last-child {
   color: whitesmoke;
   display: flex;
+}
+
+.chat-user-component {
+  padding-bottom: 15px;
 }
 
 .chat-user-component .user-component__column:last-child {
@@ -53,14 +58,20 @@
 }
 
 .user-profile-music {
-  border: 2px solid whitesmoke;
-  padding: 10px;
+  border: 2px solid var(--light-yellowgreen);
+  padding: 8px;
   border-radius: 15px;
   align-items: center;
+  font-size: 12px;
+}
+
+.user-profile-music span {
+  color: var(--light-yellowgreen);
 }
 
 .user-profile-music i {
   margin-right: 4px;
+  color: var(--light-yellowgreen);
 }
 
 .user-component__subtitle .fa-exclamation-circle {

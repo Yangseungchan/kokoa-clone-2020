@@ -9,7 +9,11 @@
 }
 
 #friends-display-link i {
-  color: gold;
+  color: tomato;
+}
+
+#friends-display-link i:last-child {
+  color: rgb(35, 167, 35);
 }
 
 .friends-screen {
@@ -20,6 +24,7 @@
 .friends-screen__channel {
   border-top: var(--main-border);
   margin-top: 20px;
+  margin-bottom: 30px;
   padding-top: 15px;
 }
 
@@ -27,7 +32,7 @@
   margin-bottom: 25px;
   display: flex;
   justify-content: space-between;
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--light-white);
 }
 
 @keyframes hideSplashScreen {
@@ -41,6 +46,7 @@
 }
 
 #splash-screen {
+  background-color: var(--night-blue);
   position: absolute;
   height: 100vh;
   width: 100vw;
@@ -51,21 +57,4 @@
   font-size: 120px;
   animation: hideSplashScreen 0.4s ease-in-out forwards;
   animation-delay: 1.5s;
-}
-
-@keyframes shiningicon_friends {
-  25% {
-    color: gold;
-  }
-  50% {
-    color: black;
-  }
-  75% {
-    color: gold;
-  }
-}
-
-.friends_i {
-  color: gold;
-  animation: shiningicon_friends 2.5s ease-in-out infinite;
 }
