@@ -45,6 +45,7 @@
 }
 
 .find-icon-row .icon-row__icons:first-child:hover i {
+  will-change: transform;
   animation: qrcodeanimation 1.5s linear infinite;
 }
 
@@ -63,6 +64,7 @@
 }
 
 .find-icon-row .icon-row__icons:nth-child(2):hover i {
+  will-change: transform;
   animation: contactsanimation 1.5s linear infinite;
 }
 
@@ -81,6 +83,7 @@
 }
 
 .find-icon-row .icon-row__icons:nth-child(3):hover i {
+  will-change: transform;
   animation: idanimation 1.5s linear infinite;
 }
 
@@ -99,6 +102,7 @@
 }
 
 .find-icon-row .icon-row__icons:last-child:hover i {
+  will-change: transform;
   animation: inviteanimation 1.5s linear infinite;
 }
 
@@ -118,6 +122,7 @@
 }
 
 .icon-row-collection .icon-row__icons:hover .fa-calendar-check {
+  will-change: transform;
   animation: calendarColor 2s ease-in-out infinite;
 }
 
@@ -137,6 +142,7 @@
 }
 
 .icon-row-collection .icon-row__icons:hover .fa-briefcase {
+  will-change: transform;
   animation: briefcaseColor 2s ease-in-out infinite;
 }
 
@@ -156,6 +162,7 @@
 }
 
 .icon-row-collection .icon-row__icons:hover .fa-smile-wink {
+  will-change: transform;
   animation: smileColor 2s ease-in-out infinite;
 }
 
@@ -175,6 +182,7 @@
 }
 
 .icon-row-collection .icon-row__icons:hover .fa-palette {
+  will-change: transform;
   animation: themeColor 2s ease-in-out infinite;
 }
 
@@ -194,6 +202,7 @@
 }
 
 .icon-row-collection .icon-row__icons:hover .fa-dollar-sign {
+  will-change: transform;
   animation: accountColor 2s ease-in-out infinite;
 }
 
@@ -213,6 +222,7 @@
 }
 
 .icon-row-collection .icon-row__icons:hover .fa-comments {
+  will-change: transform;
   animation: openchatColor 2s ease-in-out infinite;
 }
 
@@ -232,6 +242,7 @@
 }
 
 .icon-row-collection .icon-row__icons:hover .fa-gift {
+  will-change: transform;
   animation: giftColor 2s ease-in-out infinite;
 }
 
@@ -259,5 +270,6 @@
 }
 
 .icon-row-collection .icon-row__icons:hover .fa-shopping-cart {
+  will-change: transform;
   animation: shoppingcartColor 2s linear infinite;
 }

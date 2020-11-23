@@ -143,6 +143,7 @@
     transform: rotateY(180deg);
   }
 }
+
 .weather-broadcast-column:last-child:hover i {
-  animation: RotateMarker 0.5s ease-in-out infinite;
+  animation: RotateMarker 0.7s ease-in-out infinite;
 }
