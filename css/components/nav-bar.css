@@ -124,10 +124,13 @@
 
 .find_i {
   color: tomato;
-  animation: shiningicon_find 2.5s ease-in-out infinite;
+  animation: shiningicon_find 1.75s ease-in-out infinite;
 }
 
 @keyframes shiningicon_more {
+  0% {
+    transform: none;
+  }
   25% {
     color: rgb(193, 219, 230);
   }
@@ -136,6 +139,9 @@
   }
   75% {
     color: rgb(193, 219, 230);
+  }
+  100% {
+    transform: rotateY(180deg);
   }
 }
 

@@ -37,6 +37,7 @@
   font-size: 18px;
   margin-bottom: 25px;
   background-color: rgba(0, 0, 0, 0);
+  color: white;
 }
 
 #login-form input:not([type="submit"]) {
@@ -45,7 +46,7 @@
 }
 
 #login-form input::placeholder {
-  color: rgba(245, 245, 245, 0.7);
+  color: var(--light-white);
 }
 
 #login-form input:focus {
@@ -57,6 +58,19 @@
   cursor: pointer;
   padding: 20px 0px;
   border-radius: 5px;
+}
+
+@keyframes logincolor {
+  from {
+    transform: none;
+  }
+  to {
+    background-color: var(--yellow);
+  }
+}
+
+#login-form input[type="submit"]:hover {
+  animation: logincolor 1s ease-in-out forwards;
 }
 
 #login-form a {
