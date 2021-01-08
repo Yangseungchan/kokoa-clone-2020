@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- saved from url=(0064)file:///Users/yangseungchan/Desktop/kokoa-clone/css/home4-4.html -->
+<html lang="kr"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title>The Nico Times</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+      }
+      div {
+        width: 200px;
+        height: 200px;
+        background-color: teal;
+      }
+      @media screen and (max-width: 600px) {
+        div {
+          background-color: tomato;
+        }
+      }
+      @media screen and (min-width: 601px) and (max-width: 1200px) and (orientation: landscape) {
+        div {
+          background-color: wheat;
+        }
+      }
+      @media screen and(orientation: landscape) {
+        span {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+    <span>Please flip your phone :(</span>
+  
+
+</body></html>

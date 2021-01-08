@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <title>The Nico Times</title>
+    <style>
+      * {
+        border: 1px dashed black;
+      }
+      html {
+        background-color: tomato;
+      }
+      body {
+        margin: 20px;
+        padding: 20px;
+        background-color: thistle;
+      }
+      div {
+        padding: 20px;
+      }
+      #first {
+        background-color: whitesmoke;
+        width: 150px;
+        height: 150px;
+      }
+      #second {
+        background-color: wheat;
+        width: 100px;
+        height: 100px;
+      }
+      #third {
+        background-color: blanchedalmond;
+        width: 50px;
+        height: 50px;
+      }
+      span {
+        border-style: dotted;
+        height: 10000px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="first">
+      <div id="second">
+        <div id="third">
+          <span>hello</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!--"display:block" = span의 속성을 block으로 변경-->
+<!--inline = 높이, 너비 없음, block = 높이, 너비가 있음-->
+<!--브라우저 요소검사에서 볼때 margin은 box의 border(box를 감싸는 경계선)로부터 바깥에 있는 공간-->

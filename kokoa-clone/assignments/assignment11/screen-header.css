@@ -1,0 +1,25 @@
+.screen__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px 20px;
+}
+
+.screen__header-column {
+  width: 50%;
+}
+
+.screen__header-column:first-child {
+  transform: rotateZ(270deg);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 240px;
+}
+
+.screen__header-column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}

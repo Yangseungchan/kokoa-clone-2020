@@ -1,0 +1,60 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: gainsboro;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.color__papers {
+  margin-top: 20px;
+}
+
+.color__paper-row {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.color__paper {
+  border: 4px solid white;
+  width: 180px;
+  height: 350px;
+}
+
+.color__paper-title {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  padding-left: 10px;
+}
+
+.color__paper-code {
+  font-size: 15px;
+}
+
+.color__paper-row:first-child {
+  margin-bottom: 30px;
+}
+
+.color__paper-row .color__paper:first-child {
+  margin-right: 20px;
+}
+
+.color__paper-row:first-child .color__paper:first-child {
+  background-color: tomato;
+}
+.color__paper-row:first-child .color__paper:last-child {
+  background-color: teal;
+}
+
+.color__paper-row:last-child .color__paper:first-child {
+  background-color: burlywood;
+}
+
+.color__paper-row:last-child .color__paper:last-child {
+  background-color: thistle;
+}

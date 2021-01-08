@@ -1,0 +1,37 @@
+<!DOCTYPE html> <!--일반적인 text들과 구분짓기 위해서 선언하는 첫줄-->
+
+<html lang="kr"><!--브라우저가 어떤 언어인지 쉽게 파악하도록 도와주는 줄-->
+  <head>
+    <link 
+      rel="shortcut icon"
+      sizes="16x16 32x32 64x64"
+      href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico"
+    />
+    <title>HOME - My First website.</title> <!--사이트의 제목을 나타내는 태그-->
+    <meta property="og:title" content="My First Website." /> <!--head 태크들 중 에서도 진짜 보이지 않는 내용들을 담아내는 meta 태그 -->
+    <meta
+      property="og:image"
+      content="https://d1telmomo28umc.cloudfront.net/media/seo/home2.jpg"
+    />
+    <meta name="description" content="This is my website made by my self!" />
+    <meta charset="utf-8" /> <!--특수문자를 브라우저가 해석하는데 도움을 주는 태그-->
+  </head>
+  <body>
+    <h1>HELLO!</h1> <!--제목을 나타내는 태그이며, h1부터 h6태그들 까지 존재한다-->
+    <a href="http://google.com" target="_blank">Go to google.com</a> 
+    <!--anchor 태그는 링크를 나타내기 위해 사용되는 태그이다.
+      주요 attribute : href(hyperlink/HTTP reference) -> href뒤에 위치한 링크형태의 텍스트를 하이퍼링크로 변환하는 attribute
+                      target = "_self"(해당 링크로 이동시 주어진 탭에서 링크 이동이 발생) or "_blank"(해당 링크로 이동시 새로운 탭에서 링크로 이동)
+    -->
+    <p>I'd like to live in <sup>Korea</sup></p> <!--p(paragraph)-->
+    <p>2<sub>5</sub></p> 
+    <dialog open>
+        <audio
+        controls
+        src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3">
+    </audio>    
+    </dialog>
+</html>
+
+<!--기본적인 형식-->
+<tagname attrName="value">anytextmessage</tagname>
